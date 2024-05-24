@@ -75,3 +75,8 @@ hr {
 .star {
   width: 1.5rem;
 }
+@media (min-width: 500px) {
+  html {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+  }
+}
