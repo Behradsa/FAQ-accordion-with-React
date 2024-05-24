@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  background-color: hsl(275, 100%, 97%);
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.faqs-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto 1.5rem;
+  max-width: 375px;
+}
+.heading {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.heading h1 {
+  font-weight: 700;
+  margin-left: 1rem;
+  color: hsl(292, 42%, 14%);
+}
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.question h4 {
+  margin-right: 2rem;
+  line-height: 1.3em;
+  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(292, 42%, 14%);
+}
+.answer {
+  display: none;
+  margin-bottom: 1rem;
+  line-height: 1.3em;
+  font-weight: 400;
+  color: hsl(292, 16%, 49%);
+  font-size: 0.9rem;
+}
+hr {
+  border-top: 1px solid hsla(292, 16%, 49%, 0.2);
+}
+.star {
+  width: 1.5rem;
+}
