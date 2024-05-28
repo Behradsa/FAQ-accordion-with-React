@@ -47,14 +47,18 @@ html {
   margin-bottom: 1rem;
   align-items: center;
 }
-.question h4 {
+.question button {
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
   margin-right: 2rem;
   line-height: 1.3em;
   font-weight: 600;
   font-size: 1rem;
   color: hsl(292, 42%, 14%);
 }
-.question h4:hover {
+.question button:hover {
   color: #9f34e3;
   cursor: pointer;
 }

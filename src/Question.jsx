@@ -11,7 +11,7 @@ function Question(props) {
   return (
     <div className="question-container">
       <div className="question">
-        <h4 onClick={handleIconChange}>{props.q}</h4>
+        <button onClick={handleIconChange}>{props.q}</button>
         <img
           className="plus"
           src={icon}
